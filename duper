@@ -63,7 +63,7 @@ local function createLoadingScreen()
     title.Size = UDim2.new(0.9, 0, 0.16, 0)
     title.Position = UDim2.new(0.05, 0, 0.04, 0)
     title.BackgroundTransparency = 1
-    title.Text = "🌈 GROW A GARDEN DUPER 🌈"
+    title.Text = "GROW A GARDEN DUPER"
     title.TextScaled = true
     title.Font = Enum.Font.GothamBold
     title.TextColor3 = Color3.fromRGB(215, 220, 255)
